@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elite Point — Destek</title>
+  <meta name="description" content="Elite Point uygulaması için destek, sıkça sorulan sorular ve iletişim bilgileri." />
+  <style>
+    :root {
+      --primary: #C8A24B;
+      --dark: #14110C;
+      --text: #1d1b16;
+      --muted: #6b6557;
+      --bg: #faf8f3;
+      --card: #ffffff;
+      --border: #e7e2d6;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    header {
+      background: var(--dark);
+      color: #fff;
+      padding: 48px 20px 40px;
+      text-align: center;
+    }
+    .badge {
+      width: 72px; height: 72px;
+      border-radius: 18px;
+      background: var(--primary);
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: 34px; font-weight: 800; color: var(--dark);
+      margin-bottom: 16px;
+    }
+    header h1 { font-size: 26px; font-weight: 800; }
+    header p { color: #cfc9ba; margin-top: 6px; font-size: 15px; }
+    main { max-width: 720px; margin: 0 auto; padding: 32px 20px 60px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+    }
+    h2 { font-size: 19px; font-weight: 700; margin-bottom: 12px; }
+    h3 { font-size: 16px; font-weight: 700; margin: 16px 0 4px; }
+    p, li { color: var(--text); font-size: 15.5px; }
+    .muted { color: var(--muted); font-size: 14px; }
+    a { color: #9a7a2e; text-decoration: none; font-weight: 600; }
+    a:hover { text-decoration: underline; }
+    .contact-btn {
+      display: inline-block;
+      background: var(--primary);
+      color: var(--dark);
+      padding: 12px 22px;
+      border-radius: 12px;
+      font-weight: 700;
+      margin-top: 8px;
+    }
+    ol, ul { padding-left: 20px; margin-top: 6px; }
+    li { margin-bottom: 4px; }
+    footer { text-align: center; padding: 24px 20px 40px; color: var(--muted); font-size: 13px; }
+    .lang { color: var(--muted); font-size: 13px; margin-top: 24px; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="badge">EP</div>
+    <h1>Elite Point — Destek</h1>
+    <p>Yardım, sıkça sorulan sorular ve iletişim</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>İletişim</h2>
+      <p>Her türlü soru, geri bildirim ve destek talebin için bize e-posta gönderebilirsin. Genellikle 1–2 iş günü içinde yanıt veriyoruz.</p>
+      <a class="contact-btn" href="mailto:kaanbudak0@gmail.com">kaanbudak0@gmail.com</a>
+    </div>
+
+    <div class="card">
+      <h2>Elite Point Nedir?</h2>
+      <p>Elite Point; araç yıkama sadakat puanları, token bakiyesi, kampanyalar ve kayıtlı araçlarını tek yerden yönettiğin bir mobil uygulamadır.</p>
+    </div>
+
+    <div class="card">
+      <h2>Sıkça Sorulan Sorular</h2>
+
+      <h3>Nasıl hesap oluşturabilirim?</h3>
+      <p>Uygulamayı aç, telefon numaranı, adını, bir PIN ve araç plakanı girerek hesabını oluşturabilirsin.</p>
+
+      <h3>PIN'imi unuttum, ne yapmalıyım?</h3>
+      <p>Giriş ekranındaki "PIN'imi unuttum" seçeneğinden telefon numaran ve kayıtlı plakanla yeni bir PIN belirleyebilirsin.</p>
+
+      <h3>Token bakiyem nasıl yüklenir?</h3>
+      <p>Token bakiyen, hizmet noktalarındaki işlemlerin sonucunda güncellenir. Sorun yaşarsan bizimle iletişime geç.</p>
+
+      <h3>Hesabımı nasıl silerim?</h3>
+      <p>Hesabını ve tüm verilerini doğrudan uygulama içinden kalıcı olarak silebilirsin:</p>
+      <ol>
+        <li>Uygulamada giriş yap.</li>
+        <li><strong>Profil → Hesap Bilgileri</strong> ekranını aç.</li>
+        <li>Sayfanın altındaki <strong>"Hesabı Sil"</strong> butonuna dokun.</li>
+        <li>Onaylamak için PIN'ini gir ve <strong>"Hesabımı Kalıcı Olarak Sil"</strong>e bas.</li>
+      </ol>
+      <p class="muted">Hesabını sildiğinde profil bilgilerin, token bakiyen, kayıtlı araçların ve işlem geçmişin kalıcı olarak silinir; bu işlem geri alınamaz. Yardıma ihtiyacın olursa <a href="mailto:kaanbudak0@gmail.com">kaanbudak0@gmail.com</a> adresine yazabilirsin.</p>
+    </div>
+
+    <div class="card">
+      <h2>Gizlilik</h2>
+      <p>Elite Point yalnızca hizmeti sağlamak için gerekli olan bilgileri (telefon numarası, ad, araç plakası ve işlem kayıtları) saklar. Verilerin üçüncü taraflara satılmaz. Hesabını sildiğinde verilerin sistemden kaldırılır.</p>
+    </div>
+
+    <p class="lang">For support in English, please contact us at
+      <a href="mailto:kaanbudak0@gmail.com">kaanbudak0@gmail.com</a>.</p>
+  </main>
+
+  <footer>
+    © 2026 Elite Point. Tüm hakları saklıdır.
+  </footer>
+</body>
+</html>
